@@ -7,7 +7,7 @@
 - 🖼️ **多格式支持**  
   拖放识别：支持 JPG/PNG/JPEG 图片、MP4/AVI 视频
 - 🚀 **高性能检测**  
-  YOLOv8 实时检测（CPU/GPU 自动切换）
+  YOLOv11 实时检测（CPU/GPU 自动切换）
 - 📦 **开箱即用**  
   提供预编译 EXE 文件，无需配置环境
 - 🔧 **灵活扩展**  
@@ -19,16 +19,6 @@
 
 ### 环境要求
 
-- Python 3.8+
+- Python
 - Windows/Linux/macOS
 - NVIDIA GPU (可选，推荐用于加速)
-
-### 安装依赖
-
-```bash
-# 基础依赖
-pip install pyqt6 ultralytics opencv-python
-
-# GPU加速支持 (CUDA 11.8)
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
-
